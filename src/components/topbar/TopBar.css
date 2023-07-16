@@ -1,0 +1,67 @@
+.topbar{
+    width: 100%;
+    height: 65px;
+    background-color: #dcf0fa;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.topbar-left,
+.topbar-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar-center{
+    flex: 6;
+}
+
+.topbar-profile-pic{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topbar-social-icon{
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 32px;
+    color: var(--primary-color);
+}
+
+.topbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.topbar-list-item{
+    margin-right: 22px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.topbar-search{
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 20px;
+}
